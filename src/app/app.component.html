@@ -1,0 +1,5 @@
+<router-outlet />
+
+@if ((url$ | async) !== '/') {
+  <a class="link" routerLink="/">To home page</a>
+}

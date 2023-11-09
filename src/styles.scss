@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  background-color: #1b1e27;
+  color: #fff;
+}
+
+a {
+  display: block;
+  width: fit-content;
+  text-decoration: underline;
+  color: inherit;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.link {
+  margin-top: 2rem;
+  padding: 8px;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
