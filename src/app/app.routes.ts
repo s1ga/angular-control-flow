@@ -3,7 +3,8 @@ import { NgIfElseComponent } from './examples/ng-if-else.component';
 import { NgSwitchCaseComponent } from './examples/ng-switch-case.component';
 import { NgForLoopComponent } from './examples/ng-for-loop.component';
 import { NgEmptyLoopComponent } from './examples/empty-block.component';
-import { HomeComponent } from './examples/home.component';
+import { NgDeferComponent } from './examples/defer.component';
+import { HomeComponent } from './components/home.component';
 
 export const routes: Routes = [
   {
@@ -26,6 +27,10 @@ export const routes: Routes = [
   {
     path: 'empty-loop',
     component: NgEmptyLoopComponent,
+  },
+  {
+    path: 'defer',
+    component: NgDeferComponent,
   },
   {
     path: '**',

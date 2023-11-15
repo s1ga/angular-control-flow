@@ -11,6 +11,7 @@ import { RouterLink } from "@angular/router";
     <a routerLink="/switch-case">switch-case example</a>
     <a routerLink="/for-loop">for-loop example</a>
     <a routerLink="/empty-loop">empty-loop example</a>
+    <a routerLink="/defer">defer example</a>
   `,
   imports: [RouterLink],
 })
