@@ -1,6 +1,6 @@
 # AngularControlFlow
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+This project is used to get into the control flow and deferrable views introduced in Angular v17. There are different examples that show a usage with old directive and new declarative approaches 
 
 ## Development server
 
